@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="slike/logo3.png">
+    <title>MaxGym</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img src="slike/logo3.png"/>
+                <img src="slike/logo2.png" id="logo2" />
+                <div class="cistac"></div>
+            </a>
+        </div>
+             
+        <div id="meni">
+            <ul>
+                <li><a href="treneri.html">Treneri</a></li>
+                <li><a href="cenovnik.html">Cenovnik</a></li>
+                <li><a href="lokacija.html">Lokacija</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="oautoru.html">O autoru</a></li>
+            </ul>
+        </div>
+        <div class="cistac"></div>
+        
+    </header>
+    <main>
+        <div class="pocetnaslika">
+            <h1>POČNI SA TRENINGOM</br>odmah.</h1>
+            <div id="dugme"><p><a href="cenovnik.html">SADA</a></p></div>
+        </div>  
+        <div class="podnaslov">
+            <h1>POSETITE NAS</h1>
+            <p>Svaki dan ste dobrodosli da trenirate kod nas!</p>
+            <table>
+                <tr><td>PONEDELJAK-PETAK</td><td>08-23h</td></tr>
+                <tr><td>SUBOTA</td><td>08-22h</td></tr>
+                <tr><td>NEDELJA</td><td>10-18h</td></tr>
+            </table>
+            <p>Dodjite, ucinite sebe jacim od svojih izgovora!</p>
+        </div>   
+        <br>
+        <div id="prijava-kontent">
+        <div class="prijava">
+            <h1>ZAKAŽITE SVOJ PROBNI TRENING</h1>
+            <p id="prijavap">sa svojim ličnim trenerom</p>
+            <form name="mare" method="post">
+               
+                    <legend>Popunite polja</legend>
+                <table>
+                    <tr><td><input type="text" placeholder="Ime" required/></td><td><label>Muško  </label><input type="radio" name="pol"></td></tr>
+                    <tr><td><input type="text" placeholder="Prezime"/></td><td><label>Žensko  </label><input type="radio" name="pol"></td></tr>
+                    <tr><td><input type="tel" placeholder="Broj telefona"/></td><td><label>Izaberi trenera:</label><select id="trener">
+                        <option value="boris">Boris</option>
+                        <option value="filip">Filip</option>
+                        <option value="verica">Verica</option>
+                    </select></td></tr>
+                    <tr><td colspan="2"><input type="submit" value="Klikni da zakažeš"></td></tr>
+                      
+                </table>
+                
+            </form>
+        </div>
+        
+        <div class="prijava"><h2> Počnite tamo gde ste sada.<br>Koristite ono što imate.<br>Učini što možeš.<br><span class="ljubicasta">Bez bola.<br>Nema dobitka.</span></h2>
+        </div>  
+        <div class="cistac"></div>
+     </div>
+    </main>
+    <bR>
+        <br>
+<footer>
+    <table>
+        <tr>
+       <td>Posetite nas i na:<ul id="mreze">
+        <li><a href="https://www.instagram.com/maxgymfitness_/" class="fa fa-instagram"></a></li>
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-twitter"></a></li>
+    </ul></td>
+       <td>Kontakt telefon:<br>+381653320871</td>
+       <td>Lokacija:<br> &#128205; Julije Delere 43 Borča</td>
+      </tr>
+      <tr><td><a href="sitemap.xml">Sitemap</a></td><td><img src="slike/fitpass-logo.png" width="100px"></td><td>Rss: <a href="rss.xml" class="fa fa-rss"></td></tr>
+    </table>
+</footer>
+</body>
+</html>

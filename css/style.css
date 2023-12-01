@@ -1,0 +1,488 @@
+
+html{scroll-behavior: smooth;
+
+}
+body {
+    background-image: url('..//slike/pozadina.jpg');
+    width: 1300px;
+    margin: auto;
+    
+    
+}
+
+.cistac {
+    clear: both;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #cfd3e4;
+    transition: 0.3s;
+
+}
+#meni ul li a:hover {
+    color:white;
+    }
+.aktivan {
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+header {
+    background-color: #232325;
+    height: 73px;
+    padding: 5px;
+    position: fixed;
+    width: 1290px;
+    margin: auto;
+    box-shadow: 0px 3px 6px 0px #1d1d1d;
+    
+}
+
+#logo img{
+    float: left;
+    position: absolute;
+    width: 113px;
+    margin-left: 15px;
+}
+
+#logo2{
+    position:absolute;
+    left:125px;
+    top:17px;
+    
+
+}
+
+#meni {
+    float: right;
+    width: 600px;
+    margin-right: 20px;
+    margin-top:24px;
+    display: flex;
+    
+}
+
+#meni ul {
+    display: flex;
+    float:right;
+    list-style-type:none;
+    }
+
+#meni ul li {
+    display: inline;
+    float: left;
+    margin-left: 15px;
+    width: 100px;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 20px;
+
+    }
+.pocetnaslika{
+    position: relative;
+    height: 600px;
+    width: 1300px;
+    z-index: -1;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-image: url(..//slike/slikapocetna.jpg);
+    filter: brightness(100%);
+}
+.pocetnaslika2{
+    position: relative;
+    height: 600px;
+    width: 1300px;
+    z-index: -1;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-image: url(..//slike/slikapocetna2.jpg);
+    filter: brightness(100%);
+}
+.pocetnaslika2 h1{
+    position: absolute;
+    color: #e3e5ec;
+    top: 300px;
+    left: 500px;
+    font-size: 40pt;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    animation: fadeIn ease-in-out 1s forwards;
+    
+
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.pocetnaslika h1{
+    position: fixed;
+    top: 400px;
+    left:140px;
+    color: #e3e5ec; 
+    text-align: left;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    animation: fadeIn ease-in-out 2s forwards;
+    
+}
+
+#dugme{
+    position: fixed;
+    top: 480px;
+    left:140px;
+    width: 170px; 
+    background-color: #e3e5ec;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px; 
+    animation: fadeIn ease-in-out 3s forwards;
+}
+#dugme p{
+    font-size: 21pt;
+    margin:5px auto;
+    margin-left: 36px;
+   
+
+}
+#dugme a{
+    color: #1d1d1d;
+}
+.podnaslov p{
+   color:#5d5e5f ;
+   text-align: center;
+}
+.podnaslov table{
+    margin: auto;
+}
+.podnaslov h1{
+    color: #e3e5ec;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 35pt;
+    
+}
+.podnaslov table td{
+    color:#e3e5ec ;    
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #1d1d1f;
+    
+}
+.podnaslov table tr{
+
+    margin-bottom: 1px;
+
+}
+.okvirclanarina{
+    width: 1300px;
+    padding-top: 20px;
+}
+.margin-ld{
+    margin:0px 50px 0px 50px;
+}
+.boxclan{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: #1d1d1f;
+    border-radius: 20px;
+    box-shadow: rgb(17, 17, 17) 0px 0px 20px;
+    transition: 0.5s;
+}
+
+.boxclan:hover{
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px;
+}
+.boxclan h1{
+    margin-top: 20px;
+    font-size: 17pt;
+}
+#prijava-kontent
+{
+    display: block;
+}
+.prijava h1{
+    color: #e3e5ec;
+    margin:40px 0px 0px 30px;
+    
+}
+#prijavap{
+    color: rgb(183, 0, 255);
+    margin-left: 30px;
+}
+input[type="text"], input[type="tel"]{
+    width: 300px;
+    height: 50px;
+    background-color: #29292c;
+    margin: 10px 10px 10px 30px;
+    border: none;
+    border-radius: 10px;
+    
+}
+input[type="submit"]{
+    width: 130px;
+    height: 30px;
+    border: none;
+    color: #111111;
+    margin-left: 197px;
+    border-radius: 20px;
+    background-color: #e3e5ec;
+    transition: 0.1s;
+    
+}
+input[type="submit"]:hover{
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: rgb(231, 231, 231) 0px 0px 3px;
+    
+}
+legend{
+    color: #8f8f8f;
+    margin-left: 30px;
+    
+}
+input[type="radio"]{
+    accent-color:rgb(183, 0, 255);
+    width: 60px;
+}
+select{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    color:#cfd3e4;
+    background-color: #29292c;
+    border: none;
+    border-radius: 10px;
+}
+
+label{
+    color:#9b9b9b ;
+}
+.prijava{
+    margin-left: 10px;
+    width: 620px;
+    float: left;
+}
+.prijava h2{
+    text-align: right;
+    color: #e3e5ec;
+    font-weight: bold;
+    margin-top: 41px;
+    font-size: 23pt;
+    text-transform:uppercase;
+    opacity: 30%;
+    border-radius: 3px;
+    border-right: 1px solid rgb(211, 211, 211);
+
+}
+.ljubicasta{
+    color:rgb(183, 0, 255) ;
+}
+.prijava table td{
+    text-align: left;
+}
+.plava{
+   color:#e3e5ec;
+    text-shadow: rgb(6, 25, 196) 3px 0 10px;
+}
+.crvena{
+    color: #e3e5ec;
+    text-shadow: rgb(80, 0, 145) 3px 0 10px;
+}
+.zuta{
+    color: #e3e5ec;
+    text-shadow: rgb(217, 255, 0) 3px 0 10px;
+}
+.malaslova{
+    font-size: 12px;
+    vertical-align: bottom;
+}
+.tabela-clanarine{
+    width: 350px;
+}
+.tabela-clanarine td{ 
+  
+    text-align: left;
+    color: #1d1d1d;
+    border-bottom:1px solid #3a3a3a;
+}
+footer{
+    background-color: rgba(22, 22, 22, 0);
+    height: 100px;
+}
+footer table {
+    width: 1300px;
+    height: 30px;
+    
+}
+#lokacija-okvir{
+    width: 800px;
+    margin: auto;
+    color: #e3e5ec;
+    border-radius: 20px;
+
+}
+#crna{
+    color: #232325;
+    font-size: 10pt;
+    float: right;
+    margin:6px 8px 0px 0px;
+}
+.lokacija{
+    width: 350px;
+    margin:25px;
+    float: left;
+}
+.lokacija img{
+    border-radius: 10px;
+}
+.naslov-cene h1{
+   text-align: left;
+   color:white
+}
+#slogan{
+    width: 500px;
+    float: right;
+}
+#slogan h2{
+    color: #cfd3e4;
+    text-align: right;
+    margin-right: 30px;
+}
+.naslov-cene p{
+    text-align: left;
+    color: #ffffff;
+ }
+hr.linija{
+    color: #1d1d1d;
+    border: 1 ps solid black;
+}
+iframe{
+    width: 1300px;
+    height: 240px;
+    margin-top: 86px;
+    transition: 1s;
+    border:none;
+    filter: brightness(85%);
+}
+iframe:hover{
+    height: 515px;
+    filter: brightness(100%);
+}
+footer table td{
+    width: 430px;
+    padding: 1px;
+    color:#e8eaf0;
+    text-align: center;
+       
+}
+.lokacijaikonica{
+    float: left;
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    background-color:#cfd3e4;
+    border-radius: 20px;
+    
+}
+.pocetnaslika3{
+    position: relative;
+    height: 600px;
+    width: 1300px;
+    z-index: -1;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-image: url(..//slike/slikapocetna3.jpg);
+    filter: brightness(100%);
+}
+.pocetnaslika3 h1{
+    position: absolute;
+    color: #e3e5ec;
+    top: 300px;
+    left: 400px;
+    font-size: 40pt;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    animation: fadeIn ease-in-out 1s forwards;
+    
+
+}
+#okvir-trenera{
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+
+}
+.treneri-kartice img{
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 2px solid rgb(183, 0, 255);
+
+}
+.otreneru h1 {
+    margin-top:20px;
+}
+.otreneru{
+    width: 300px;
+    float: left;
+    color: #e3e5ec;
+    text-align: left;
+    word-wrap: normal;
+}
+#ja-okvir{
+    margin: auto;
+    width: 400px;
+    margin-top: 200px;
+}
+.ja{
+    width: 150px;
+    float: left;
+    border-radius: 20px;
+}
+.margin-g{
+    position: absolute;
+    top: 20%;
+    left: 400px;
+}
+#slike{
+    width: 500px;
+    margin: auto;
+}
+#slike img{
+    width: 500px;
+    transition: 0.5s;  
+    border-radius: 10px;
+    margin: 10px;
+}
+#slike img:hover{
+    filter: brightness(250%);
+    box-shadow: white 0px 0px 20px;
+    z-index: -1;
+
+}
+#mreze{
+    list-style-type: none;
+    
+}
+#mreze li{
+    display: inline;
+    margin: 10px;
+
+}
